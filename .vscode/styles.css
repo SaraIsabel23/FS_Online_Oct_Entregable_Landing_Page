@@ -1,0 +1,56 @@
+header{
+    width:100%;
+    top:0;
+    left:0;
+    background-color: white;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    font-weight:600;
+    font-size: 20;
+    color:#1caac3;
+}
+.logo span{
+    color:#d796cd;
+}
+
+nav ul{
+  display: flex;  
+  list-style:none;
+  gap:18px;
+  text-decoration: none;
+  color:#1caac3;
+
+}
+nav ul li a{
+  text-decoration:none;
+  color:#1caac3;
+  font-size:15px;
+}
+.lang{
+   justify-content: flex-end;
+}
+
+.botonPara{
+    background-color: #d796cd;
+    color: white;
+}
+.botonClub{
+    background-color: #d796cd;
+    color: white;
+
+}
+
+
+@media (max-width:480px) {
+    navbar{
+        flex-direction: column;
+
+    }
+
+    
+}
